@@ -1,0 +1,53 @@
+{
+  "name": "proj",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@invertase/react-native-apple-authentication": "2.1.2",
+    "@react-native-community/async-storage": "1.12.1",
+    "@react-native-community/masked-view": "0.1.11",
+    "@react-native-firebase/app": "12.1.0",
+    "@react-native-firebase/auth": "12.1.0",
+    "@react-native-firebase/database": "12.1.0",
+    "@react-native-firebase/firestore": "12.1.0",
+    "@react-navigation/native": "5.9.4",
+    "firebaseui": "4.8.0",
+    "native-base": "2.15.2",
+    "protobufjs": "6.11.2",
+    "react": "17.0.1",
+    "react-native": "0.64.2",
+    "react-native-gesture-handler": "1.10.3",
+    "react-native-navigation": "1.1.472",
+    "react-native-paper": "4.9.2",
+    "react-native-reanimated": "2.2.0",
+    "react-native-responsive-screen": "1.4.2",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "3.3.0",
+    "react-native-vector-icons": "8.1.0",
+    "react-navigation": "4.4.4",
+    "react-navigation-stack": "2.10.4",
+    "react-navigation-tabs": "2.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.14.3",
+    "@babel/runtime": "7.14.0",
+    "@react-native-community/eslint-config": "2.0.0",
+    "@types/react-native-sqlite-storage": "5.0.0",
+    "@types/react-native-vector-icons": "6.4.6",
+    "babel-jest": "27.0.2",
+    "eslint": "7.28.0",
+    "jest": "27.0.4",
+    "metro-react-native-babel-preset": "0.66.0",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
